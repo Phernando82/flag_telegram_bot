@@ -142,10 +142,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         reply_markup=ForceReply(selective=True),
     )
     await update.message.reply_text("I help you to get a country's flag, enter the country's name, UN Code, "
-                                    "ISO Alpha-2 code,or ISO Alpha-3 code according https://www.iban.com/country-codes"
-                                    "Available commands: "
-                                    "/start"
-                                    "/help"
+                                    "ISO Alpha-2 code,or ISO Alpha-3 code according https://www.iban.com/country-codes \n"
+                                    "Available commands: \n"
+                                    "/start \n"
+                                    "/help \n"
                                     )
 
 
