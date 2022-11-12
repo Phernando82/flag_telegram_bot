@@ -151,7 +151,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         """Get a country's flag via the country's name, UN Code, ISO Alpha-2 code,or ISO Alpha-3 code. 
            These codes can all be found at:
            https://www.iban.com/country-codes 
-           This bot uses CountryFlagsAPI."""
+           This bot uses CountryFlagsAPI, bugs please report to @Phernando82"""
     )
 
 
