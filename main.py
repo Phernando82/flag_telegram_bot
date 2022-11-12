@@ -168,7 +168,7 @@ async def flag(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await update.message.reply_text('Check that you have correctly typed the reference for the flag according '
                                         'https://www.iban.com/country-codes')
     else:
-        flag_searched.replace(" ", "")
+        flag_searched = flag_searched.replace(" ", "")
         url = URL + flag_searched
         await update.message.reply_text(url)
 
