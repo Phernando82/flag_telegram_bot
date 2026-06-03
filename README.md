@@ -38,7 +38,7 @@ Python 3.10+ · python-telegram-bot v20+ · CountryFlagsAPI · python-decouple �
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USER/country-flag-bot
+git clone https://github.com/Phernando82/flag_telegram_bot.git
 cd country-flag-bot
 pip install -r requirements.txt
 ```
